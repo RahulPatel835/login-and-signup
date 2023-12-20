@@ -1,0 +1,17 @@
+<nav class="nav nav-bar navbar ">
+  <ul class="ul navbar2">
+    <li class="li li2 li3"><img class="img src img2 "src='assets/1.jpg'></li>
+    <li class="h2">Attendance Tracker</li>
+    <li class="li li2 li3"><a routerLink="/login" routerLinkActive="active">Login</a></li>
+    <li class="li li2 li3"><a routerLink="/signup" routerLinkActive="active">Signup</a></li>
+    <li class="li li2 li3"><a routerLink="/attendance-list" routerLinkActive="active" *ngIf="isLoggedIn">Attendance List</a></li>
+    <li class="li li2 li3"><a routerLink="/attendance-form" routerLinkActive="active" *ngIf="isLoggedIn">Attendance Form</a></li>
+    <li class="li li2 li3"><a routerLink="/teacher" routerLinkActive="active" *ngIf="isLoggedIn">Teacher</a></li>
+    <li class="li li2 li3"><a routerLink="/student" routerLinkActive="active" *ngIf="isLoggedIn">Student</a></li>
+    <button class="btn button btn4" *ngIf="isLoggedIn" ><a  (click)="logout()">Logout</a></button>
+  </ul>
+  <div class="div">
+    <input class="input input2" type="text" placeholder="Search...">
+    <button class="btn button btn4">Search</button>
+  </div>
+</nav>

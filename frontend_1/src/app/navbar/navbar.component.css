@@ -1,0 +1,85 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #a910d4;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li, .li2, .li3 {
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.li2 {
+  border-bottom: 2px solid transparent;
+}
+
+
+.h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+a {
+  color: #180505;
+  text-decoration: none;
+  padding: 0.3rem;
+}
+
+a:hover {
+  color: #27a4da; /* Change this to your desired hover color */
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #00ff99;
+}
+
+.btn {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  background-color: #3f10e7;
+  color: #f2e9e9;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.input {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #779bc2;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.btn4{
+    top: 15px;
+    height: 25px;
+}
